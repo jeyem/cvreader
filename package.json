@@ -2,8 +2,8 @@
   "name": "cvreader",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "postinstall": "npm run build"
