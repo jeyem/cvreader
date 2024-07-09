@@ -2,16 +2,11 @@
   "name": "cvreader",
   "version": "1.0.0",
   "description": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
-  },
-  "exports": {
-    ".": {
-      "require": "./dist/index.js"
-    }
   },
   "files": [
     "dist"
