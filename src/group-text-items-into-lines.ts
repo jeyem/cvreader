@@ -1,5 +1,5 @@
-import { BULLET_POINTS } from "./extract-resume-from-sections/lib/bullet-points";
-import type { TextItems, Line, Lines } from "./types";
+import { BULLET_POINTS } from "./extract-resume-from-sections/lib/bullet-points.js";
+import type { TextItems, Line, Lines } from "./types.js";
 
 /**
  * Step 2: Group text items into lines. This returns an array where each position

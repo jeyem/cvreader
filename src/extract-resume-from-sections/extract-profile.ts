@@ -2,16 +2,16 @@ import type {
   ResumeSectionToLines,
   TextItem,
   FeatureSet,
-} from "../types";
-import { getSectionLinesByKeywords } from "./lib/get-section-lines";
+} from "../types.js";
+import { getSectionLinesByKeywords } from "./lib/get-section-lines.js";
 import {
   isBold,
   hasNumber,
   hasComma,
   hasLetter,
   hasLetterAndIsAllUpperCase,
-} from "./lib/common-features";
-import { getTextWithHighestFeatureScore } from "./lib/feature-scoring-system";
+} from "./lib/common-features.js";
+import { getTextWithHighestFeatureScore } from "./lib/feature-scoring-system.js";
 
 // Name
 export const matchOnlyLetterSpaceOrPeriod = (item: TextItem) =>

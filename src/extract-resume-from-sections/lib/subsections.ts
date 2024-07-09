@@ -1,6 +1,6 @@
-import { BULLET_POINTS } from "./bullet-points";
-import { isBold } from "./common-features";
-import type { Lines, Line, Subsections } from "../../types";
+import { BULLET_POINTS } from "./bullet-points.js";
+import { isBold } from "./common-features.js";
+import type { Lines, Line, Subsections } from "../../types.js";
 
 /**
  * Divide lines into subsections based on difference in line gap or bold text.

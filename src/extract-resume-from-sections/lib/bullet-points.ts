@@ -1,4 +1,4 @@
-import type { Lines, TextItem } from "../../types";
+import type { Lines, TextItem } from "../../types.js";
 
 /**
  * List of bullet points

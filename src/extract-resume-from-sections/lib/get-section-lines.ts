@@ -1,4 +1,4 @@
-import type { ResumeSectionToLines } from "../../types";
+import type { ResumeSectionToLines } from "../../types.js";
 
 /**
  * Return section lines that contain any of the keywords.

@@ -1,9 +1,9 @@
-import type { Resume, ResumeSectionToLines } from "../types";
-import { extractProfile } from "./extract-profile";
-import { extractEducation } from "./extract-education";
-import { extractWorkExperience } from "./extract-work-experience";
-import { extractProject } from "./extract-project";
-import { extractSkills } from "./extract-skills";
+import type { Resume, ResumeSectionToLines } from "../types.js";
+import { extractProfile } from "./extract-profile.js";
+import { extractEducation } from "./extract-education.js";
+import { extractWorkExperience } from "./extract-work-experience.js";
+import { extractProject } from "./extract-project.js";
+import { extractSkills } from "./extract-skills.js";
 
 /**
  * Step 4. Extract resume from sections.

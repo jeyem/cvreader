@@ -3,12 +3,12 @@ import type {
   Lines,
   ResumeSectionToLines,
   ResumeKey
-} from "./types";
+} from "./types.js";
 import {
   hasLetterAndIsAllUpperCase,
   hasOnlyLettersSpacesAmpersands,
   isBold,
-} from "./extract-resume-from-sections/lib/common-features";
+} from "./extract-resume-from-sections/lib/common-features.js";
 
 export const PROFILE_SECTION: ResumeKey = "profile";
 

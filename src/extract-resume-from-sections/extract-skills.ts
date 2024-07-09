@@ -1,9 +1,9 @@
-import type { ResumeSectionToLines, ResumeSkills, FeaturedSkill } from "../types";
-import { getSectionLinesByKeywords } from "./lib/get-section-lines";
+import type { ResumeSectionToLines, ResumeSkills, FeaturedSkill } from "../types.js";
+import { getSectionLinesByKeywords } from "./lib/get-section-lines.js";
 import {
   getBulletPointsFromLines,
   getDescriptionsLineIdx,
-} from "./lib/bullet-points";
+} from "./lib/bullet-points.js";
 
 export const extractSkills = (sections: ResumeSectionToLines) => {
   const lines = getSectionLinesByKeywords(sections, ["skill"]);

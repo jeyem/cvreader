@@ -1,22 +1,22 @@
-import type { ResumeWorkExperience } from "../types";
+import type { ResumeWorkExperience } from "../types.js";
 import type {
   TextItem,
   FeatureSet,
   ResumeSectionToLines,
-} from "../types";
-import { getSectionLinesByKeywords } from "./lib/get-section-lines";
+} from "../types.js";
+import { getSectionLinesByKeywords } from "./lib/get-section-lines.js";
 import {
   DATE_FEATURE_SETS,
   hasNumber,
   getHasText,
   isBold,
-} from "./lib/common-features";
-import { divideSectionIntoSubsections } from "./lib/subsections";
-import { getTextWithHighestFeatureScore } from "./lib/feature-scoring-system";
+} from "./lib/common-features.js";
+import { divideSectionIntoSubsections } from "./lib/subsections.js";
+import { getTextWithHighestFeatureScore } from "./lib/feature-scoring-system.js";
 import {
   getBulletPointsFromLines,
   getDescriptionsLineIdx,
-} from "./lib/bullet-points";
+} from "./lib/bullet-points.js";
 
 // prettier-ignore
 const WORK_EXPERIENCE_KEYWORDS_LOWERCASE = ['work', 'experience', 'employment', 'history', 'job'];

@@ -1,4 +1,4 @@
-import type { TextItem, FeatureSet } from "../../types";
+import type { TextItem, FeatureSet } from "../../types.js";
 
 const isTextItemBold = (fontName: string) =>
   fontName.toLowerCase().includes("bold");

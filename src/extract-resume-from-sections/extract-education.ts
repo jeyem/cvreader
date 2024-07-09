@@ -3,20 +3,20 @@ import type {
   FeatureSet,
   ResumeSectionToLines,
   ResumeEducation
-} from "../types";
-import { getSectionLinesByKeywords } from "./lib/get-section-lines";
-import { divideSectionIntoSubsections } from "./lib/subsections";
+} from "../types.js";
+import { getSectionLinesByKeywords } from "./lib/get-section-lines.js";
+import { divideSectionIntoSubsections } from "./lib/subsections.js";
 import {
   DATE_FEATURE_SETS,
   hasComma,
   hasLetter,
   hasNumber,
-} from "./lib/common-features";
-import { getTextWithHighestFeatureScore } from "./lib/feature-scoring-system";
+} from "./lib/common-features.js";
+import { getTextWithHighestFeatureScore } from "./lib/feature-scoring-system.js";
 import {
   getBulletPointsFromLines,
   getDescriptionsLineIdx,
-} from "./lib/bullet-points";
+} from "./lib/bullet-points.js";
 
 /**
  *              Unique Attribute

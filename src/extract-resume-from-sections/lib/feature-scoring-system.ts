@@ -2,7 +2,7 @@ import type {
   TextItems,
   TextScores,
   FeatureSet,
-} from "../../types";
+} from "../../types.js";
 
 const computeFeatureScores = (
   textItems: TextItems,
