@@ -84,6 +84,5 @@ export const readPdf = async (fileUrl: string): Promise<TextItems> => {
   const isEmptySpace = (textItem: TextItem) =>
     !textItem.hasEOL && textItem.text.trim() === "";
   textItems = textItems.filter((textItem) => !isEmptySpace(textItem));
-  console.log(textItems, '*********************')
   return textItems;
 };
